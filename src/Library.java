@@ -32,7 +32,7 @@ public class Library {
     public void search(Edition edition){
         for (int i = 0; i < editions.size(); i++) {
             if (edition.getTitle().equals(editions.get(i).getTitle())){
-                System.out.println("You found and booked the edition.");
+                System.out.println("You found and booked the edition. The book is yours");
             }
         }
     }
